@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(pacote-d013/pacote-d013/imagens/fundo-madeira.jpg);
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+aside{
+    display: flex;
+    margin-right: 20px;
+    margin-top: 10px;
+    padding-left: 100px;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 100px;
+}
+
+
+#home{
+    margin-top: 5px;
+}
+
+#interface{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    flex-direction: row-reverse;
+}
+
+#celular{
+    width: 20em;
+}
+
+#iframe{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+ 
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.butao{
+    width: 3.5em;
+    border-radius: 50%;
+    margin-top: 25px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.425);
+}
+
+.butao:hover{
+    transition-duration: 500ms;
+
+    transform: translate(-2px, -4px);
+    border: 2px solid white;
+    box-shadow: 6px 20px 25px rgba(0, 0, 0, 0.733);
+}
