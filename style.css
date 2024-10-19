@@ -6,8 +6,8 @@
 }
 
 body{
-    background-image: url(pacote-d013/pacote-d013/imagens/fundo-madeira.jpg);
-    background-position: top center;
+    background-image: url(pacote-d013/pacote-d013/imagens/fundos.png);
+    background-position: right center;
     background-attachment: fixed;
     background-size: cover;
 }
@@ -29,7 +29,10 @@ aside{
 
 ul{
     list-style-type: none;
-    padding-left: 100px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.397);
+    height: 96vh;
+    border-radius: 20px;
 }
 
 
