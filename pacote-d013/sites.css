@@ -17,7 +17,7 @@ img{
 
 div{
     margin: 0px;
-    width: 270px;
+    width: 280px;
     height: 40px;
     background-color: darkred;
     text-align: center;
@@ -32,4 +32,13 @@ a{
 
 div:hover{
     background-color: red;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+
+img#youtube{
+    width: 280px;
 }
