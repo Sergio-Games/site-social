@@ -74,9 +74,9 @@ ul{
 }
 
 .butao:hover{
-    transition-duration: 500ms;
+    transition-duration: 350ms;
 
     transform: translate(-2px, -4px);
     border: 2px solid rgba(255, 255, 255, 0.61);
-    box-shadow: 6px 10px 15px rgba(0, 0, 0, 0.733);
+    box-shadow: 3px 7px 10px rgba(0, 0, 0, 0.603);
 }
